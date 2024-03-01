@@ -47,11 +47,11 @@ Verify the installations:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/noroff-backend-1/jss-ca-1-MCorneliussen.git
+   git clone [https://github.com/noroff-backend-1/jss-ca-1-MCorneliussen.git](https://github.com/MCorneliussen/JSS-CA.git)
    ```
 2. Navigate to the project directory:
    ```bash
-   cd jss-ca-1-MCorneliussen
+   cd JSS-CA
    ```
 3. Install the necessary dependencies:
     ```bash
