@@ -1,0 +1,22 @@
+section {
+    padding-top: 50px;
+}
+
+.nav-link {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: middle;
+    padding: .5rem 1rem; 
+    text-decoration: none; 
+}
+
+.navbar-username {
+    font-weight: bold;
+}
+.navbar-username:hover .navbar-username:focus {
+    background-color: transparent;
+    text-decoration: none;
+}

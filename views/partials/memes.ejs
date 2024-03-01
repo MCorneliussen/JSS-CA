@@ -1,0 +1,28 @@
+<section class="container">
+    <table class="table" id="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Image</th>
+          <% if (user) { %>
+            <th scope="col">Details</th>
+             <% } %>
+            <th scope="col">
+              <form form action="/memes" method="GET" class="d-flex">
+                <input type="text" name="search" placeholder="Search memes">
+                <button type="submit">Search</button>
+            </form>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% memes.forEach(meme => { %>
+          <tr id="meme-row-<%= meme.id %>">
+            <td> <%= meme.name %> </td>
+            <td> <img src="<%= meme.url %>" style="width: 20%;"></td>
+            <td> <% if(user) { %> <a href="#" onclick="open_new_window('/meme/<%= meme.id %>'); markAsViewed('<%= meme.id %>');">Details</a> <% } %> </td>
+            <td><!-- Filler space --></td>
+          </tr> <% }); %>
+      </tbody>
+    </table>
+  </section>

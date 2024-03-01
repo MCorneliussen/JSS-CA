@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.viewed-meme {
+  background-color: #ececec;
+  
+}
+
+.meme-content {
+  display: flex;
+  align-items: center;
+}
+
+.meme-details {
+  margin-left: 20px;
+}

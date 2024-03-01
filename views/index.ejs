@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Memes Central</title>
+  <%- include('./partials/head.ejs') %>
+</head>
+
+<body class="position-relative" data-bs-spy="scroll">
+  <%- include('./partials/navbar.ejs') %>
+    <header id="home">
+      <div class="container-fluid header-content">
+        <div class="row">
+          <div class="col">
+            <div class="content-box text-center text-light">
+              <h1>Meme Central</h1>
+              <iframe width="560" height="315" 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="Rick Astley - Never Gonna Give You Up (Official Music Video)" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <%- include('./partials/scripts.ejs') %>
+</body>
+
+</html>

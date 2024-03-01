@@ -1,0 +1,13 @@
+<section class="container">
+    <h1>
+        <%= meme.name %>
+    </h1>
+    <div class="meme-content">
+        <img src="<%= meme.url %>" alt="<%= meme.name %>">
+        <div class="meme-details">
+                <p>ID: <%= meme.id %> </p>
+                <p>URL: <%= meme.url %> </p>
+                <p>Dimensions: <%= meme.width %> x <%= meme.height %> </p>
+        </div>
+    </div>
+</section>
